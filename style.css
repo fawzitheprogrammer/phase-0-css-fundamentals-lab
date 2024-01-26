@@ -34,9 +34,13 @@ header h1 {
 
 /* END OF Nav bar menu styling */
 
+section figure img {
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 600px;
+  text-align: center;
+}
 
-
-/* Image styling */
 section#featured-property {
   text-align: center;
   padding-left: 10%;
@@ -44,7 +48,6 @@ section#featured-property {
   font-family: 'Poppins';
 }
 
-/*END OF Image styling */
 
 
 /* Footer section styling */
