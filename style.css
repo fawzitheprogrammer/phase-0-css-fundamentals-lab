@@ -1,5 +1,69 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: auto;
 }
+
+
+/* Nav bar menu styling */
+nav a {
+  background-color: #00203FFF;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.1s;
+  font-family: 'Roboto';
+}
+
+
+
+nav a:hover {
+  background-color: rgb(178, 227, 205);
+  color: #00203FFF;
+  border-radius: 5%;
+}
+
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Poppins';
+}
+
+
+/* END OF Nav bar menu styling */
+
+
+
+/* Image styling */
+section#featured-property {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Poppins';
+}
+
+/*END OF Image styling */
+
+
+/* Footer section styling */
+section#details {
+  width: 100%;
+  background-color: #00203FFF;
+  display: inline-flex;
+  color: rgb(178, 227, 205);
+  align-items: center;
+}
+
+
+a {
+  color: rgb(17, 247, 174);
+}
+
+section#details div {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/*End Footer section styling */
